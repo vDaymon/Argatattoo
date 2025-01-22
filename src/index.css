@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Ensure Tailwind CSS is installed and configured correctly */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+body {
+  @apply text-white;
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color:rgb(53, 53, 53);
+  background-image: url('./assets/fondobg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
